@@ -1,0 +1,55 @@
+body {
+    background-color: #ECF8F8;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    color:hsl(0, 0%, 10%);
+    word-spacing: 5px;
+}
+
+/* Classes */
+.navbar {
+    display: flex;
+    color: hsl(28, 26%, 55%); 
+    text-align: center; 
+    font-size: 15px;
+    background-color: hsl(17, 53%, 79%);
+    padding: 10px;
+    justify-content: stretch;
+    align-self: center;
+}
+
+.nomeCientifico {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+table {
+    padding: 3px;
+    border-color: hsl(340, 37%, 51%);
+    background-color: hsl(0, 0%, 90%);
+    border: 3px;
+}
+
+th {
+    background-color: #F5AC72;
+}
+
+td {
+    background-color: #F2AA7E;
+}
+
+h2 {
+    color: #a1a1a1;
+    font-size: 35px;
+}
