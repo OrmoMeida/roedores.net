@@ -1,5 +1,9 @@
+* {
+    margin: 0;
+}
+
 body {
-    background-color: #ECF8F8;
+    background-color: hsl(180, 46%, 95%);
     font-family: 'Nunito', sans-serif;
     font-size: large;
     color:hsl(0, 0%, 10%);
@@ -8,14 +12,22 @@ body {
 
 /* Classes */
 .navbar {
+    width: 100%;
+    height: fit-content;
     display: flex;
     color: hsl(28, 26%, 55%); 
     text-align: center; 
     font-size: 15px;
     background-color: hsl(17, 53%, 79%);
-    padding: 10px;
-    justify-content: stretch;
-    align-self: center;
+    padding: 1ch;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: space-around;
+    gap: 5px;
+}
+
+.navbar_item {
+    align-self: flex-start;
 }
 
 .nomeCientifico {
@@ -35,21 +47,25 @@ a:hover {
 }
 
 table {
-    padding: 3px;
-    border-color: hsl(340, 37%, 51%);
+    padding: 10px; 
+    /* border-color: #C9C5BA; */
+    border-color: black;
     background-color: hsl(0, 0%, 90%);
-    border: 3px;
+    border: 10px;
+    align-content: center;
 }
 
 th {
-    background-color: #F5AC72;
+    border-color: black;
+    background-color: #C9C5BA;
 }
 
-td {
-    background-color: #F2AA7E;
+td.header {
+    font-weight: bold;
 }
 
 h2 {
-    color: #a1a1a1;
+    border-color: black;
+    color: hsl(0, 0%, 63%);
     font-size: 35px;
 }
