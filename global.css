@@ -68,4 +68,19 @@ h2 {
     border-color: black;
     color: hsl(0, 0%, 63%);
     font-size: 35px;
+    text-align: center;
+}
+
+h3 {
+    border-color: black;
+    color: hsl(0, 0%, 63%);
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    border-color: black;
+    color: hsl(0, 0%, 63%);
+    font-size: 20px;
+    text-align: left;
 }
