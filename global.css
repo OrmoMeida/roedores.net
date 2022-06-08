@@ -121,6 +121,7 @@ h4 {
     margin-right: 35px;
     padding: 10px;
     background-image: url(imagens/papel.jpeg);
+    border-radius: 10px;
 }
 
 blockquote{
@@ -130,6 +131,7 @@ blockquote{
     margin-right: 35px;
     padding: 10px;
     background-image: url(imagens/papel.jpeg);
+    border-radius: 10px;
 }
 
 .txtSub{
