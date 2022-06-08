@@ -4,11 +4,28 @@
 
 body {
     background-color: hsl(180, 46%, 95%);
+    background-image: url(imagens/xadrezMarrom.jpeg);
+    background-attachment: fixed;
     font-family: 'Nunito', sans-serif;
     font-size: large;
     color:hsl(0, 0%, 10%);
     word-spacing: 5px;
 }
+
+p {
+    margin-left: 35px;
+    margin-right: 35px;
+    text-indent: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+ img {
+    border-radius: 15px;
+    display: block;
+    margin: 0px auto;
+ }
+
+
 
 /* Classes */
 .navbar {
@@ -18,7 +35,7 @@ body {
     color: hsl(28, 26%, 55%); 
     text-align: center; 
     font-size: 15px;
-    background-color: hsl(17, 53%, 79%);
+    background-color: rgb(230, 189, 173);
     padding: 1ch;
     justify-content: flex-start;
     align-items: stretch;
@@ -52,7 +69,6 @@ table {
     border-color: black;
     background-color: hsl(0, 0%, 90%);
     border: 10px;
-    align-content: center;
 }
 
 th {
@@ -62,6 +78,17 @@ th {
 
 td.header {
     font-weight: bold;
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color:hsl(0, 0%, 90%);
+    word-spacing: 5px;
+    text-decoration: overline;
+   text-shadow: 2px 2px hsl(28, 26%, 55%);
+    
+
 }
 
 h2 {
@@ -84,3 +111,153 @@ h4 {
     font-size: 20px;
     text-align: left;
 }
+
+.atencao {
+    font-family: 'Times New Roman', Times, serif;
+    border-style: dotted;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 10px;
+    background-image: url(imagens/papel.jpeg);
+}
+
+blockquote{
+    font-family: 'Times New Roman', Times, serif;
+    border-style: dotted;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 10px;
+    background-image: url(imagens/papel.jpeg);
+}
+
+.txtSub{
+    font-size: 25px;
+    color:hsl(17, 53%, 79%);
+    text-align: left;
+}
+
+.txtInsideSub{
+    text-indent: 20px;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 50px;
+}
+
+.txtSub2{
+    font-size: 20px;
+    color:hsl(17, 53%, 79%);
+    text-align: left;
+}
+
+.listaDireita {
+    text-align: left;
+}
+
+.caixaFundo {
+    margin-top: 20px;
+    background-image: url(imagens/quadriculadoBranco.jpeg);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 17px solid transparent;
+    padding: 10px;
+    border-image-source: url(imagens/border2.png);
+    border-image-repeat: stretch;  
+    border-image-slice: 30;
+  }
+
+  .indexBox1 {
+    background-image: url(imagens/coelhomito.jpeg);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 17px solid transparent;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    background-position: center;
+
+  }
+
+
+  .cadastro {
+    margin: 1%;
+    padding: 1%;
+    width: 40%;
+    border: 2.5px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: hsl(318, 34%, 52%);
+    transition: all, 1s;
+    color: hsl(0, 0%, 0%);
+    background-color:rgb(212, 170, 154);
+    display: block;
+    margin: 0px auto;
+}
+
+    .cadastro:hover {
+    border-radius: 25px; 
+    border-color: hsl(318, 34%, 52%); 
+    opacity: 100%;
+    transition: all, 1s;
+    background-color: rgb(244, 213, 201);
+    display: block;
+    margin: 0px auto;
+}
+
+.cadastro {
+    opacity: 70%;
+    transition: all, 1s;
+}
+  
+.txtCadastroTitulo{
+    font-size: 20px;
+    color:hsl(0, 0%, 0%);
+    text-align: left;
+}
+
+.pCadastro{
+    text-align: left;
+}
+
+
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 10px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
