@@ -6,6 +6,8 @@ body {
     background-color: hsl(180, 46%, 95%);
     background-image: url(imagens/xadrezMarrom.jpeg);
     background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
     font-family: 'Nunito', sans-serif;
     font-size: large;
     color:hsl(0, 0%, 10%);
@@ -29,7 +31,7 @@ p {
 
 /* Classes */
 .navbar {
-    width: 100%;
+    width: auto;
     height: fit-content;
     display: flex;
     color: hsl(28, 26%, 55%); 
@@ -154,10 +156,10 @@ blockquote{
 }
 
 .caixaFundo {
-    margin-top: 20px;
+    margin-top: 3%;
     background-image: url(imagens/quadriculadoBranco.jpeg);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 17px solid transparent;
     padding: 10px;
     border-image-source: url(imagens/border2.png);
@@ -167,8 +169,8 @@ blockquote{
 
   .indexBox1 {
     background-image: url(imagens/coelhomito.jpeg);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     border: 17px solid transparent;
     padding: 10px;
     background-repeat: no-repeat;
