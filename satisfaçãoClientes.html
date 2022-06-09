@@ -32,52 +32,50 @@
         <br><br>
         <form action="" method="post">
         <fieldset>
-            <legend>Dados do Cliente</legend>
-                <label for="funcNome">Insira seu nome</label> <br>
-                <input type="text" name="funcNome" id="funcNome" size="50" required placeholder="Seu Nome Completo">
+            <legend>Dados</legend>
+                <label for="clienteNome">Insira seu nome</label> <br>
+                <input type="text" name="clienteNome" id="clienteNome" size="50" required placeholder="Seu Nome Completo">
                 <br><br>
-                <label for="FuncIdade">Insira sua Idade</label> <br>
-                <input type="number" name="funcIdade" id="funcIdade" min="1" required placeholder="Sua idade">
+                <label for="clienteIdade">Insira sua Idade</label> <br>
+                <input type="number" name="clienteIdade" id="clienteIdade" min="1" required placeholder="Sua idade">
                 <br><br>
-                <label for="funcEmail">Insira seu Email</label> <br>
-                <input type="email" name="funcEmail" id="funcEmail" placeholder="xxx@email.com">
+                <label for="clienteEmail">Insira seu Email</label> <br>
+                <input type="email" name="clienteEmail" id="clienteEmail" placeholder="xxx@email.com">
                 <br><br>
-                <label for="funcNum">Insira um telefone para contato</label> <br>
-                <input type="text" name="funcNum" id="funcNum" placeholder="(DDD) 12345-6789">
+                <label for="clienteNum">Insira um telefone para contato</label> <br>
+                <input type="text"  name="clienteNum" id="clienteNum" placeholder="(DDD) 12345-6789">
         </fieldset>
         <br><br>
         <fieldset>
-        <legend>Satisfação do Cliente</legend>
-            <label for="funcConforto">
+        <legend>Satisfação</legend>
+            <label for="clienteConforto">
                 Como estavam as informações de nosso site?
             </label> <br>
-            <input type="radio" name="funcConforto" id="funcConforto" value="A" required> Muito boas <br>
-            <input type="radio" name="funcConforto" id="funcConforto" value="B"> Relativamente boas <br>
-            <input type="radio" name="funcConforto" id="funcConforto" value="C"> Indiferentes <br>
-            <input type="radio" name="funcConforto" id="funcConforto" value="D"> Pouco relevantes <br>
-            <input type="radio" name="funcConforto" id="funcConforto" value="F"> Irrelevantes <br>
+            <input type="radio" name="clienteConforto" id="clienteConforto" value="A" required> Muito boas <br>
+            <input type="radio" name="clienteConforto" id="clienteConforto" value="B"> Relativamente boas <br>
+            <input type="radio" name="clienteConforto" id="clienteConforto" value="C"> Indiferentes <br>
+            <input type="radio" name="clienteConforto" id="clienteConforto" value="D"> Pouco relevantes <br>
+            <input type="radio" name="clienteConforto" id="clienteConforto" value="F"> Irrelevantes <br>
             <br><br>
-            <label for="funcAtendimento">
+            <label for="clienteAtendimento">
                 Como estava o layout de nosso site?
             </label> <br>
-            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="A" required> Muito bom <br>
-            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="B"> Relativamente bom <br>
-            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="C"> Indiferente <br>
-            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="D"> Ruim <br>
-            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="F"> Muito ruim <br>
+            <input type="radio" name="clienteAtendimento" id="clienteAtendimento" value="A" required> Muito bom <br>
+            <input type="radio" name="clienteAtendimento" id="clienteAtendimento" value="B"> Relativamente bom <br>
+            <input type="radio" name="clienteAtendimento" id="clienteAtendimento" value="C"> Indiferente <br>
+            <input type="radio" name="clienteAtendimento" id="clienteAtendimento" value="D"> Ruim <br>
+            <input type="radio" name="clienteAtendimento" id="clienteAtendimento" value="F"> Muito ruim <br>
         
             <br><br>
-            <label for="funcGarcom">Avalie: </label> <br>
-            <input type="range" name="funcGarcom" id="funcGarcom" min="0" max="5" required> Relevância das informações <br>
-            <input type="range" name="funcGarcom" id="funcGarcom" min="0" max="5" required> Disposição <br>
-            <input type="range" name="funcGarcom" id="funcGarcom" min="0" max="5" required> Qualidade das informações <br>
+            <label for="clienteGarcom">Avalie: </label> <br>
+            <input type="range" name="clienteGarcom" id="clienteGarcom" min="0" max="5" required> Relevância das informações <br>
+            <input type="range" name="clienteGarcom" id="clienteGarcom" min="0" max="5" required> Disposição <br>
+            <input type="range" name="clienteGarcom" id="clienteGarcom" min="0" max="5" required> Qualidade das informações <br>
         
             <br><br>
-            <label for="FuncSugestao">Você tem alguma sugestão para nosso site?</label> <br>
-            <textarea name="FuncSugestao" id="FuncSugestao" rows="5" cols="35" spellcheck="true" > </textarea>
+            <label for="clienteSugestao">Você tem alguma sugestão para nosso site?</label> <br>
+            <textarea name="clienteSugestao" id="clienteSugestao" rows="5" cols="35" spellcheck="true" > </textarea>
             
-            <meter min="0" max="10" value="0" low="4" high="8"></meter>
-        
         <br><br>
         <button type="submit" value="Enviar" class="button-55">Enviar</button>
         <button type="reset" value="Reset" class="button-55">Limpar</button>
