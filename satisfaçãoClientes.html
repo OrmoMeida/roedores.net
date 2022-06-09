@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico"/>
+    <link rel="stylesheet" href="global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,407;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:#70867f;">
+    <nav class="navbar" id="topo">
+        <a href="index.html" class="navbar_item">Home</a>
+        |
+        <span><i><b>Porquinho da índia</b></i></span>
+        <a href="animais/alojamento-pqi.html" class="navbar_item">Alojamento</a>
+        <a href="animais/alimentacao-pqi.html">Alimentação</a>
+        |
+        <span><i><b>Coelho</b></i> </span>
+        <span class="navbar_link"> Comportamento</span>
+        |
+        <span><i><b>Pesquisa de Satisfação</b></i></span>
+    </nav>
+
+    <div class="caixaFundo">
+        <h1 align="center">Pesquisa de Satisfação</h1>
+        <form action="" method="post">
+        <fieldset>
+            <legend>Dados do Cliente</legend>
+                <label for="funcNome">Insira seu nome</label> <br>
+                <input type="text" name="funcNome" id="funcNome" size="50" required placeholder="Seu Nome Completo">
+                <br><br>
+                <label for="FuncIdade">Insira sua Idade</label> <br>
+                <input type="number" name="funcIdade" id="funcIdade" min="1" required placeholder="Sua idade">
+                <br><br>
+                <label for="funcEmail">Insira seu Email</label> <br>
+                <input type="email" name="funcEmail" id="funcEmail" placeholder="xxx@email.com">
+                <br><br>
+                <label for="funcNum">Insira um telefone para contato</label> <br>
+                <input type="text" name="funcNum" id="funcNum" placeholder="(DDD) 12345-6789">
+        </fieldset>
+        <br><br>
+        <fieldset>
+        <legend>Satisfação do Cliente</legend>
+            <label for="funcConforto">
+                Como estavam as informações de nosso site?
+            </label> <br>
+            <input type="radio" name="funcConforto" id="funcConforto" value="A" required> Muito boas <br>
+            <input type="radio" name="funcConforto" id="funcConforto" value="B"> Relativamente boas <br>
+            <input type="radio" name="funcConforto" id="funcConforto" value="C"> Indiferentes <br>
+            <input type="radio" name="funcConforto" id="funcConforto" value="D"> Pouco relevantes <br>
+            <input type="radio" name="funcConforto" id="funcConforto" value="F"> Irrelevantes <br>
+            <br><br>
+            <label for="funcAtendimento">
+                Como estava o layout de nosso site?
+            </label> <br>
+            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="A" required> Muito bom <br>
+            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="B"> Relativamente bom <br>
+            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="C"> Indiferente <br>
+            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="D"> Ruim <br>
+            <input type="radio" name="funcAtendimento" id="funcAtendimento" value="F"> Muito ruim <br>
+        
+            <br><br>
+            <label for="funcGarcom">Avalie: </label> <br>
+            <input type="range" name="funcGarcom" id="funcGarcom" min="0" max="5" required> Relevância das informações <br>
+            <input type="range" name="funcGarcom" id="funcGarcom" min="0" max="5" required> Disposição <br>
+            <input type="range" name="funcGarcom" id="funcGarcom" min="0" max="5" required> Qualidade das informações <br>
+        
+            <br><br>
+            <label for="FuncSugestao">Você tem alguma sugestão para nosso site?</label> <br>
+            <textarea name="FuncSugestao" id="FuncSugestao" rows="5" cols="35" spellcheck="true" > </textarea>
+        
+        <br><br>
+        <button type="submit" value="Enviar" class="button-55">Enviar</button>
+        <button type="reset" value="Reset" class="button-55">Limpar</button>
+        </fieldset>
+        
+        </form>
+
+        <br><br>
+        <div align="right">
+            <a href="#topo" class="button-55" align="center">Topo</a>
+        </div>
+    </div>
+</body>
+</html>

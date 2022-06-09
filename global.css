@@ -286,5 +286,19 @@ blockquote{
     -webkit-transform: translateY(-4rem);
     transform: translateY(-4rem);
   }
+
+  fieldset {
+    border-style: dotted;
+    border-radius: 15px;
+    opacity: 50%;
+    transition: all, 0.5s;
+  }
+
+  fieldset:hover {
+    border-radius: 25px;
+    border-width: 4px;
+    opacity: 100%;
+    transition: all, 0.5s;
+  }
   
 
