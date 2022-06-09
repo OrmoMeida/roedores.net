@@ -223,7 +223,7 @@ blockquote{
     text-align: left;
 }
 
-
+/*
 .button-55 {
   align-self: center;
   background-color: #fff;
@@ -284,6 +284,6 @@ blockquote{
     visibility: hidden;
     -webkit-transform: translateY(-4rem);
     transform: translateY(-4rem);
-  }
+  }*/ 
   
 
