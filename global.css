@@ -223,7 +223,7 @@ blockquote{
     text-align: left;
 }
 
-/*
+
 .button-55 {
   align-self: center;
   background-color: #fff;
@@ -264,6 +264,7 @@ blockquote{
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
+/*
 .form__input {
     font-family: 'Roboto', sans-serif;
     color: #333;
