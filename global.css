@@ -381,6 +381,7 @@ blockquote{
 
 }
 
+/**
 @media (min-width: 481px) and (max-width: 767px)  {
     .menu {
       flex-direction: column;  
