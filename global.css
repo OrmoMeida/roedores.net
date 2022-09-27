@@ -397,6 +397,7 @@ blockquote{
 
   p{
     font-size: 1.0em;
+    text-align: left;
   }
 
   h2{
@@ -414,6 +415,7 @@ blockquote{
   .txtInsideSub{
     font-size: 1.0em;
     word-spacing: normal;
+    text-align: left;
   }
 
   .cadastro{
