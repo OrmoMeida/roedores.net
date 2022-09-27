@@ -394,6 +394,10 @@ blockquote{
     margin-left: 3%;
   }
 
+body{
+  width: fit-content;
+}
+
   p{
     font-size: 1.0em;
     text-align: left;
