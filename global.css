@@ -9,20 +9,20 @@ body {
     background-size: 100%;
     background-position: center;
     font-family: 'Nunito', sans-serif;
-    font-size: large;
     color:hsl(0, 0%, 10%);
-    word-spacing: 5px;
+    word-spacing: 0.3em;
 }
 
 p {
-    margin-left: 35px;
-    margin-right: 35px;
-    text-indent: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-indent: 3%;
+    font-size: 1.5em;
     text-align: justify;
     text-justify: inter-word;
 }
  img {
-    border-radius: 15px;
+    border-radius: 5%;
     display: block;
     margin: 0px auto;
  }
@@ -58,7 +58,9 @@ p {
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    
   }
   
   /* Dropdown Content (Hidden by Default) */
@@ -127,7 +129,7 @@ table {
     /* border-color: #C9C5BA; */
     border-color: black;
     background-color: hsl(0, 0%, 90%);
-    border: 10px;
+    border: 2%;
 }
 
 th {
@@ -153,7 +155,7 @@ h1 {
 h2 {
     border-color: black;
     color: hsl(0, 0%, 63%);
-    font-size: 35px;
+    font-size: 3.3em;
     text-align: center;
 }
 
@@ -184,28 +186,30 @@ h4 {
 blockquote{
     font-family: 'Times New Roman', Times, serif;
     border-style: dotted;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 6%;
+    margin-right: 6%;
     padding: 10px;
     background-image: url(imagens/papel.jpeg);
-    border-radius: 10px;
+    border-radius: 4%;
+    font-size: 1.3em;
 }
 
 .txtSub{
-    font-size: 25px;
+    font-size: 2.2em;
     color:hsl(17, 53%, 79%);
     text-align: left;
 }
 
 .txtInsideSub{
-    text-indent: 20px;
+    text-indent: 5%;
     text-align: justify;
-    margin-left: 35px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2em;
 }
 
 .txtSub2{
-    font-size: 20px;
+    font-size: 1.4em;
     color:hsl(17, 53%, 79%);
     text-align: left;
 }
@@ -357,9 +361,11 @@ blockquote{
     opacity: 100%;
     transition: all, 0.5s;
   }
+
+ 
   
 
-  @media (min-width: 320px) and (max-width: 480px)  {
+  @media (min-width: 300px) and (max-width: 780px) {
     .navbar {
         position: relative;
         font-size: 0.7em;
@@ -375,21 +381,43 @@ blockquote{
     font-size: 0.7em;
   }
 
+  .dropdown{
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+  }
+
   dropdownUsando{
     font-size: 0.7em;
   }
 
+  .caixaFundo{
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  p{
+    font-size: 1.0em;
+  }
+
+  h2{
+    font-size: 2.0em;
+  }
+
+  blockquote{
+    font-size: 1.0em;
+  }
+
+  .txtSub2{
+    font-size: 1.5em;
+  }
+
+  .txtInsideSub{
+    font-size: 1.0em;
+    word-spacing: normal;
+  }
+
+  .cadastro{
+    width: fit-content;
+  }
 }
 
-/**
-@media (min-width: 481px) and (max-width: 767px)  {
-    .menu {
-      flex-direction: column;  
-      font-size: 0.7em;
-    }
-
-    section {
-      background-color: lightblue;
-      font-size: 0.7em; 
-    }            
-  }      
