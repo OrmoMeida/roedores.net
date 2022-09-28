@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 * {
     margin: 0;
 }
@@ -137,17 +140,6 @@ th {
 
 td.header {
     font-weight: bold;
-}
-
-h1 {
-    font-size: 100px;
-    font-family: 'Bebas Neue', cursive;
-    color:hsl(0, 0%, 90%);
-    word-spacing: 5px;
-    text-decoration: overline;
-   text-shadow: 2px 2px hsl(28, 26%, 55%);
-    
-
 }
 
 h2 {
@@ -360,7 +352,24 @@ blockquote{
     transition: all, 0.5s;
   }
 
- 
+ .home{
+  display: flex;
+  flex-direction: row;
+  background-image: url(./imagens/coelhomito.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  min-height: 50%;
+  position: fixed;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 9.0em;
+  color:hsl(0, 0%, 90%);
+  word-spacing: 5px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px hsl(28, 26%, 55%);
+ }
   
 
   @media (min-width: 300px) and (max-width: 780px) {
