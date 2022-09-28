@@ -398,11 +398,6 @@ body{
   width: fit-content;
 }
 
-  p{
-    font-size: 1.0em;
-    text-align: left;
-  }
-
   h2{
     font-size: 2.0em;
   }
@@ -418,9 +413,10 @@ body{
   .txtInsideSub, p{
     font-size: 1.0em;
     word-spacing: normal;
-    text-align: left;
+    float: left;
+    text-align: justify;
     margin-left: auto;
-    padding-left: 0%;
+    padding-left: 3%;
   }
 
   .cadastro{
@@ -432,4 +428,20 @@ body{
     size: 1.2em;
   }
 }
+
+/**
+  @media (min-width: 768px) and (max-width: 1024px) {
+     
+    .txtInsideSub, p{
+      font-size: 1.0em;
+      word-spacing: normal;
+      text-align: justify;
+      margin-left: auto;
+      padding-left: 0%;
+      
+    }
+  
+
+  }
+
 
