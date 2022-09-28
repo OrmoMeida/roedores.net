@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 * {
     margin: 0;
@@ -108,6 +108,11 @@ p {
 .navbar_item {
     align-self: flex-start;
 }
+
+.Início{
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgb(245, 152, 135));
+}
+
 
 .nomeCientifico {
     font-style: italic;
@@ -224,18 +229,6 @@ blockquote{
     border-image-slice: 30;
   }
 
-  .indexBox1 {
-    background-image: url(imagens/coelhomito.jpeg);
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 17px solid transparent;
-    padding: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-clip: text;
-    background-position: center;
-
-  }
 
 
   .cadastro {
@@ -363,8 +356,8 @@ blockquote{
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  min-height: 50%;
-  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
   font-family: 'Bebas Neue', cursive;
   font-size: 9.0em;
   color:hsl(0, 0%, 90%);
