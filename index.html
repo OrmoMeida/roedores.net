@@ -11,11 +11,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,407;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+ 
+      .grid{
+        display: grid;
+        grid-template-columns: max-content;
+        grid-template-rows: max-content;
+        gap: 15px;
+        margin-left: 0%;
+        margin-right: auto;
+        height: fit-content;
+        overflow: hidden;
+      }
+
+      .gridDiv{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 2%;
+        border-left: 1px solid black;
+        margin-left: 15%;
+        padding-left: 2px;
+      }
+
+      .gridText{
+        float: left;
+        color: black;
+        margin-right: 25%;
+        margin-top: 5%;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 1.4em;
+        padding-left: 2%;
+        justify-content: left;
+        text-decoration: none;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
   </head>
   
 
-<body >
+<body class="Início">
     <nav class="navbar">
       <div class="dropdown">
         <div class="dropbtnUsando"><u>Home</u></div>
@@ -43,9 +98,27 @@
           </div>
     </nav>
 
-
-
   <div class="home">
     Roedores
+</div>
+
+<div class="grid">
+<div class="gridDiv">
+<img src="./imagens/pqiComida.png" width="25%" style="margin-left: 3%;">
+<a href="./animais/alimentacao-pqi.html" class="gridText">Tudo sobre a alimentação de porquinho da Índia</a>
+</div>
+
+<div class="gridDiv">
+  <img src="./imagens/cercadinho.jpg" width="25%" style="margin-left: 3%;">
+  <a href="./animais/alojamento-pqi.html" class="gridText">Como montar um cercadinho para o seu porquinho da Índia</a>
+  </div>
+
+<div class="gridDiv">
+    <img src="./imagens/coelho-adolescente-300x169.png" width="30%" style="margin-left: 3%;">
+    <a href="./animais/comportamentoCoelho.html" class="gridText">Como montar um cercadinho para o seu porquinho da Índia</a>
+</div>
+
+<br><br><br>
+
 </div>
 </body>
