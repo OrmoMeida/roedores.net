@@ -23,6 +23,7 @@
         margin-right: auto;
         height: fit-content;
         overflow: hidden;
+        border: 1px solid black;
       }
 
       .gridDiv{
@@ -33,6 +34,7 @@
         border-left: 1px solid black;
         margin-left: 15%;
         padding-left: 2px;
+        border: 1px solid blue;
       }
 
       .gridText{
@@ -45,28 +47,34 @@
         padding-left: 2%;
         justify-content: left;
         text-decoration: none;
+        border: 1px solid red;
+      }
+
+      @media (min-width: 300px) and (max-width: 780px){
+        .gridDiv{
+          flex-wrap: wrap;
+          width: 50%;
+          
+        }
+
+        .gridText{
+          font-size: 1.0em;
+          margin-right: 2%;
+      
+        }
+
+        .grid{
+          margin-right: 0px;
+          padding-left: 0%;
+          padding-right: 0px;
+          justify-content: left;
+          overflow: hidden;
+        }
       }
 
 
 
-
-
-
-
-
-
-
-
-
     </style>
-
-
-
-
-
-
-
-
   </head>
   
 
@@ -115,7 +123,7 @@
 
 <div class="gridDiv">
     <img src="./imagens/coelho-adolescente-300x169.png" width="30%" style="margin-left: 3%;">
-    <a href="./animais/comportamentoCoelho.html" class="gridText">Como montar um cercadinho para o seu porquinho da Índia</a>
+    <a href="./animais/comportamentoCoelho.html" class="gridText">Quais são os comportamentos do seu coelho?</a>
 </div>
 
 <br><br><br>

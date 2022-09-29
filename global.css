@@ -358,8 +358,6 @@ blockquote{
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  min-width: 100%;
-  min-height: 100%;
   font-family: 'Bebas Neue', cursive;
   font-size: 9.0em;
   color:hsl(0, 0%, 90%);
@@ -412,7 +410,10 @@ body{
 
   blockquote{
     font-size: 1.0em;
+    display: inline-block;
   }
+
+  
 
   .txtSub2{
     font-size: 1.5em;
@@ -438,6 +439,11 @@ body{
 
   li{
     font-size: 1.0em;
+  }
+
+  .home{
+    width: max-content;
+    font-size: 6.0em;
   }
 }
 
