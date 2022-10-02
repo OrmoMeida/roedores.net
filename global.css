@@ -453,4 +453,12 @@ body{
       display: none;
   }
 
+  body, .caixaFundo{
+    background-color: white;
+  }
+
+  .txtSub, p, .txtSub2, .txtInsideSub, h2, h3, h4 {
+    color: black;
+  }
+
 } 
