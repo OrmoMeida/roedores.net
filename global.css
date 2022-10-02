@@ -447,19 +447,9 @@ body{
   }
 }
 
-/**
-  @media (min-width: 768px) and (max-width: 1024px) {
-     
-    .txtInsideSub, p{
-      font-size: 1.0em;
-      word-spacing: normal;
-      text-align: justify;
-      margin-left: auto;
-      padding-left: 0%;
-      
-    }
-  
-
+@media print {
+  .navbar, .cadastro  {
+      display: none;
   }
 
-
+} 
