@@ -191,6 +191,7 @@ blockquote{
     background-image: url(imagens/papel.jpeg);
     border-radius: 4%;
     font-size: 1.3em;
+    box-shadow: rgba(0, 0, 0, 0.558) 2px 8px 4px -6px;
 }
 
 .txtSub{
